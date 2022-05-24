@@ -3,7 +3,7 @@
   <a href="https://pujanportfolio.web.app/" target="_blank">Pujan Shrestha</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
+  <img alt="Demo" src="./Images/pujan.png" />
 </div>
 
 <br/>
@@ -45,7 +45,5 @@ The page will reload if you make edits.
 
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
-
-# portfolio
 
 # portfolio
