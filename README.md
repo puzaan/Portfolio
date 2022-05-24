@@ -1,9 +1,9 @@
 <h2 align="center">
   Portfolio Website <br/>
-  <a href="http://soumya-jit.tech/" target="_blank">https://pujanportfolio.web.app/</a>
+  <a href="https://pujanportfolio.web.app/" target="_blank">Pujan Shrestha</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
@@ -21,7 +21,7 @@ This project was built using these technologies.
 
 ## Features
 
-**📖 Multi-Page Layout**
+**📖 Single-Page Layout**
 
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
@@ -47,4 +47,5 @@ Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
 
 # portfolio
+
 # portfolio
