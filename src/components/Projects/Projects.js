@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import about from "../../Assets/about.png";
 
 function Projects() {
   return (
@@ -65,17 +66,17 @@ back-end with CRUD operation and for database PostgreSQL was used ."
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={about}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Doctalk"
+              description="Online doctalk where people can book appointment with doctor. In this project people can talk with doctor by video call , doctor can generate pdf prescription and send it to patients by E-mail, have facebook chatbot. "
+              link="https://github.com/puzaan/DoctorAppointments"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
