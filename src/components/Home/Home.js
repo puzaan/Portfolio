@@ -29,7 +29,7 @@ function Home() {
                   </h1>
                   <h1 className="heading-name">
                     <strong className="main-name">
-                      React & Springboot Developer. Please take a look around!
+                      Java Springboot & React Developer. Please take a look around!
                     </strong>
                   </h1>
                 </Col>

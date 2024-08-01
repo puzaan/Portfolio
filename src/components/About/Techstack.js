@@ -1,49 +1,36 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiJava,
-  DiGit,
-} from "react-icons/di";
-import {
-  SiFirebase,
-  SiSpringboot,
-  SiPostgresql,
-} from "react-icons/si";
+import { Col, Row, Tooltip, OverlayTrigger } from "react-bootstrap";
+import { tech } from "./AboutList";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Techstack() {
+  const tooltipStyle = {
+    color: '#fff',
+    backgroundColor: '#333',
+    padding: '5px',
+    borderRadius: '3px',
+    fontSize: '20px'
+  };
+  const cursorStyle = {
+    cursor: 'pointer',
+  };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
+      {tech.map((tech, index) => (
+        <Col xs={4} md={2} className="tech-icons" key={index} style={cursorStyle}>
+          <OverlayTrigger
+            placement="center"
+            overlay={
+              <Tooltip id={`tooltip-${index}`} style={tooltipStyle}>
+                {tech.name}
+              </Tooltip>
+            }
+          >
+            {tech.icon}
+          </OverlayTrigger>
+        </Col>
+      ))}
     </Row>
   );
 }

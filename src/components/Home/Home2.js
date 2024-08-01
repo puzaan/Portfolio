@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGitlab} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -22,31 +22,24 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Javascript and Python. </b>
+                <b className="purple"> Java, Javascript . </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
-              {/* <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i> */}
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js and Springboot</b> and
+              with <b className="purple"> Springboot and Node.js </b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                   Java frameworks and libraries
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> Spring Boot </b>
               </i>
             </p>
           </Col>
@@ -60,7 +53,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to connect with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -73,10 +66,20 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://gitlab.com/puzaan"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaGitlab />
+                </a>
+              </li>
               
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/pujan-shrestha-818b37186/"
+                  href="https://www.linkedin.com/in/pujan-shrestha1/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

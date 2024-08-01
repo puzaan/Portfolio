@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaGitlab } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -13,7 +13,7 @@ function Footer() {
           <h3>Designed and Developed by Pujan Shrestha</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} PSH</h3>
+          <h3>Copyright © {year} PJSH</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -27,10 +27,20 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
+            <li className="social-icons">
+              <a
+                href="https://gitlab.com/puzaan"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGitlab />
+              </a>
+            </li>
 
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/pujan-shrestha-818b37186/"
+                href="https://www.linkedin.com/in/pujan-shrestha1/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
