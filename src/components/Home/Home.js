@@ -5,7 +5,6 @@ import About from "../About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Project from "../Projects/Projects";
-import Resume from "../Resume/ResumeNew";
 
 function Home() {
   return (
@@ -57,11 +56,6 @@ function Home() {
       <div id="project">
         <section>
           <Project />
-        </section>
-      </div>
-      <div id="resume">
-        <section>
-          <Resume />
         </section>
       </div>
     </div>

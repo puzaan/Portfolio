@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+const resumeLink = "./Pujan-Shrestha-Resume.pdf";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -101,10 +102,10 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                onClick={() => {
-                  updateExpanded(false);
-                  scrollTo("resume");
-                }}
+              as = "a"
+              href={resumeLink}
+              download
+              onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
