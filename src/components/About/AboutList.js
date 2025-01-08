@@ -1,23 +1,22 @@
 import {
-    SiVisualstudiocode,
-    SiPostman,
-    SiHeroku,
-    SiFigma,
-    SiIntellijidea,
-    SiSwagger,
-    SiJira,    
-    SiFirebase,
-    SiSpringboot,
-    SiPostgresql,
-  } from "react-icons/si";
-  import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiMongodb,
-    DiJava,
-    DiGit,
-  } from "react-icons/di";
+  DiGit,
+  DiJava,
+  DiJavascript1,
+  DiMongodb,
+  DiNodejs,
+  DiReact,
+} from "react-icons/di";
+import {
+  SiFigma,
+  SiFirebase,
+  SiIntellijidea,
+  SiJira,
+  SiPostgresql,
+  SiPostman,
+  SiSpringboot,
+  SiSwagger,
+  SiVisualstudiocode
+} from "react-icons/si";
 
   
 export const tools = [
